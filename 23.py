@@ -1,3 +1,3 @@
 s = int(input())
-a=[int(x) for x in input().split()]
-print(min(a))
+b=[int(x) for x in input().split()]
+print(min(b))
