@@ -1,7 +1,7 @@
 n=int(input())
-a=[int(x) for x in input().split()]
+c=[int(x) for x in input().split()]
 k=int((n+1)/2)
 if(k%2==0):
-		print(a[k-1],a[k])
+		print(c[k-1],c[k])
 else:
-		print(a[k-1])
+		print(c[k-1])
