@@ -1,9 +1,9 @@
 s=int(input())
-c=[int(x) for x in input().split()]
-c.sort()
+e=[int(x) for x in input().split()]
+e.sort()
 for i in range(0,s):
 		if(i<s-1):
 				k=' '
 		else:
 				k=''
-		print(c[i],end=k)
+		print(e[i],end=k)
