@@ -1,6 +1,6 @@
 f=input()
 try:
-		f=float(x)
+		f=float(f)
 		print("yes")
 except:
 		print("no")
